@@ -2,11 +2,11 @@ html, body {
     height: 100%;
 }
 
-.paralax {
+.parallax {
     /*Image used*/
-    background-image: url("./assets/images/parallax-1-img.jpg");
+    background-image: url("https://github.com/stlefebvre/UpdatedPortfolio/blob/master/assets/images/parallax-1-img.jpg?raw=true");
     /*Sets specific height*/
-    height: 100%;
+    height: 450px;
     /*Creates parallax scrolling effect*/
     background-attachment: fixed;
     background-position: center;
