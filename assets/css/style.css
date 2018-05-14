@@ -71,6 +71,16 @@ body {
     top: 100px;
 }
 
+#portfolio {
+    margin-bottom: 40px;
+}
+
+#portfolio-head {
+    color: #dd8069;
+    text-align: center;
+    border-bottom: double;
+}
+
 #parallax3 {
     /*Image used*/
     background-image: url("https://github.com/stlefebvre/UpdatedPortfolio/blob/master/assets/images/parallax-3-img.jpg?raw=true");
