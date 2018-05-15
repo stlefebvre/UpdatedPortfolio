@@ -38,7 +38,7 @@ $(document).ready(function () {
             }
         }).add({
             targets: '.ml9',
-            opacity: 1,
+            opacity: 0,
             duration: 1000,
             easing: "easeOutExpo",
             delay: 1000
