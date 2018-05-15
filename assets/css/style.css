@@ -152,6 +152,35 @@ body {
     background-size: cover;
 }
 
+#contact-div {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#contact-card {
+    border-color: #907a63
+}
+
+#contact-header, #contact-footer {
+    background-color: #dd8069;
+    color: #fef7f1;
+    text-align: center;
+}
+
+#contact-title, #contact-text {
+    color: #907a63;
+}
+
+#contact-body {
+    background-color: #fef7f1;
+    text-align: center;
+    color: #E3A485;
+}
+
+.icon {
+    color: #907a63;
+}
+
 @media screen and (max-width: 640px) {
     #profile-picture {
         display: none;
@@ -170,5 +199,9 @@ body {
         margin-top: none;
         position: relative;
         top: 70px;
+    }
+
+    #mblGroupCard {
+        margin-bottom: 40px;
     }
 }
