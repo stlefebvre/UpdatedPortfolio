@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Shelby Lefebvre</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--FontAwesome (for glyphicons)-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
     <!--Bootstrap 4-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
@@ -21,21 +24,25 @@
         <div class="parallax" id="parallax1">
             <div class="jumbotron jumbotron-fluid" id="jumbotron">
                 <div class="container">
-                    <h1 class="display-4" id="jumbotron-head">I am Shelby</h1>
+                    <h1 class="ml9" id="jumbotron-head">
+                        <span class="text-wrapper">
+                            <span class="display-4 letters">Shelby Lefebvre</span>
+                        </spam>
+                    </h1>
                     <p class="lead" id="jumbotron-text">An up-and-coming full-stack developer who thrives where professional meets fun.</p>
                     <!--Navbar-->
                     <ul class="nav nav-pills nav-fill" id="navbar">
                         <li class="nav-item">
-                            <a class="nav-link" href="#" id="about-link">About</a>
+                            <a class="nav-link jumbo-link" href="#about-me" id="about-link">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" id="skills-link">Skills</a>
+                            <a class="nav-link jumbo-link" href="#all-skills" id="skills-link">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" id="portfolio-link">Portfolio</a>
+                            <a class="nav-link jumbo-link" href="#portfolio" id="portfolio-link">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" id="contact-link">Conact</a>
+                            <a class="nav-link jumbo-link" href="#contact" id="contact-link">Connect With Me</a>
                         </li>
                     </ul>
                 </div>
@@ -50,7 +57,10 @@
                     <h1 class="display-4" id="about-me-head">About Me</h1>
                     <img src="assets/images/profile-image.jpg" alt="profile" class="img-fluid" id="profile-picture">
                     <p class="text-left about-me-text">
-                        I was born and raised New Englander with a tenacious "go-getter" attitude. I have ammassed 5+ years of professional office experience, 8+ years of customer service experience. Most recently, I jumped at the opportunity to enroll at UNH's Coding Bootcamp to embark on a new career in web development. Previously, I graduated in 2014 with a B.A. in Journalism, born from the love of acquiring knowledge, seeking answers, asking
+                        I am a born and raised New Englander with a tenacious "go-getter" attitude. I have ammassed 5+ years of professional office
+                        experience, 8+ years of customer service experience. Most recently, I jumped at the opportunity to
+                        enroll at UNH's Coding Bootcamp to embark on a new career in web development. Previously, I graduated
+                        in 2014 with a B.A. in Journalism, born from the love of acquiring knowledge, seeking answers, asking
                         the hard questions, and the challenge of delivering something informative yet still creative. I am
                         currently in the beginning stages of redesigning a regional health network website to bring it to
                         modern standards that will be sleek, professional, and legally compliant by the Americans with Disabilities
@@ -58,11 +68,15 @@
                     </p>
 
                     <p class="text-left about-me-text">
-                        Through the bootcamp, I have thorough experience with web development technology like JavaScript, jQuery, CSS, Bootstrap, HTML, and Firebase - skills I will showcase in the Portfolio section of this page. I am also experienced with IT helpdesk software and marketing tools like WordPress and Adobe Photoshop.
+                        Through the bootcamp, I have thorough experience with web development technology like JavaScript, jQuery, CSS, Bootstrap,
+                        HTML, and Firebase - skills I will showcase in the Portfolio section of this page. I am also experienced
+                        with IT helpdesk software and marketing tools like WordPress and Adobe Photoshop.
                     </p>
 
                     <p class="text-left about-me-text">
-                        I am strongly committed to data-based decision making, extremely organized in planning timelines to meet deadlines, quick as well as eager to learn new information, and adaptable to work efficiently in a team or independent setting. I deeply value cpommunication with teammates and supervisors to achieve goals, grow as a
+                        I am strongly committed to data-based decision making, extremely organized in planning timelines to meet deadlines, quick
+                        as well as eager to learn new information, and adaptable to work efficiently in a team or independent
+                        setting. I deeply value cpommunication with teammates and supervisors to achieve goals, grow as a
                         professional, and exceed expectations.
                     </p>
                 </div>
@@ -73,7 +87,7 @@
         <div class="parallax" id="parallax2">
 
             <!--Skills Container-->
-            <div class="container">
+            <div class="container" id="all-skills">
                 <div class="row">
                     <div class="container col-xs-12 col-s-12 col-md-6 col-lg-6" id="skills">
                         <h1 class="display-4" id="est-skills-head">Established Skills</h1>
@@ -116,7 +130,10 @@
                         <div class="card" id="GiphyCard">
                             <div class="card-body">
                                 <h5 class="card-title" id="GiphyTitle">GIPHY API/AJAX</h5>
-                                <p class="card-text" id="GiphyText">Project focused on making an AJAX call to GIPHY's API to create dynamic elements, and to change data states on called images from "still" to "animated" upon clicks. I personally took this opportunity to dive into CSS to create a custom background and a fun theme to match the content of the gifs.</p>
+                                <p class="card-text" id="GiphyText">Project focused on making an AJAX call to GIPHY's API to create dynamic elements, and to
+                                    change data states on called images from "still" to "animated" upon clicks. I personally
+                                    took this opportunity to dive into CSS to create a custom background and a fun theme
+                                    to match the content of the gifs.</p>
                                 <a href="https://stlefebvre.github.io/GIPHY" class="btn btn-primary" id="giphySiteLink">Live Website</a>
                                 <a href="https://github.com/stlefebvre/GIPHY" class="btn btn-primary" id="giphyRepoLink">Github Repository</a>
                             </div>
@@ -126,7 +143,10 @@
                         <div class="card" id="TriviaCard">
                             <div class="card-body">
                                 <h5 class="card-title" id="TriviaTitle">Trivia</h5>
-                                <p class="card-text" id="TriviaText">Used JavaScript to create a fully functional Boston Bruins trivia game with minimal user input. User only has to click to begin the game and select answers. Heavy focus on timeout functions. Variables and functions in place to tally final score, questions answered correctly and incorrectly. </p>
+                                <p class="card-text" id="TriviaText">Used JavaScript to create a fully functional Boston Bruins trivia game with minimal user
+                                    input. User only has to click to begin the game and select answers. Heavy focus on timeout
+                                    functions. Variables and functions in place to tally final score, questions answered
+                                    correctly and incorrectly. </p>
                                 <a href="https://stlefebvre.github.io/TriviaGameFinal" class="btn btn-primary" id="triviaSiteLink">Live Website</a>
                                 <!--Use CSS to create spacing between buttons-->
                                 <a href="https://github.com/stlefebvre/TriviaGameFinal" class="btn btn-primary" id="triviaRepoLink">Github Repository</a>
@@ -137,7 +157,10 @@
                         <div class="card" id="GroupCard">
                             <div class="card-body">
                                 <h5 class="card-title" id="GroupTitle">Group Travel Project</h5>
-                                <p class="card-text" id="GroupText">Group project using agile scrum approach to delegate work among team members. Combined skills from the first 9 weeks of coding bootcamp (HTML, CSS, Bootstrap framework, Firebase, JavaScript, APIs, and AJAX calls) to create a one-stop-shop for anyone to plan a trip in one easy spot from casual to professional use. </p>
+                                <p class="card-text" id="GroupText">Group project using agile scrum approach to delegate work among team members. Combined skills
+                                    from the first 9 weeks of coding bootcamp (HTML, CSS, Bootstrap framework, Firebase,
+                                    JavaScript, APIs, and AJAX calls) to create a one-stop-shop for anyone to plan a trip
+                                    in one easy spot from casual to professional use. </p>
                                 <a href="https://stlefebvre.github.io/GroupTravelProject" class="btn btn-primary" id="grpPrjctSite">Live Website</a>
                                 <a href="https://github.com/stlefebvre/GroupTravelProject" class="btn btn-primary" id="grpPrjctRepo">Github Repository</a>
                             </div>
@@ -156,18 +179,22 @@
     <div class="container">
         <div class="row">
             <div class="container" id="contact">
-                <h1 class="display-4" id="contact-head">Contact Me</h1>
                 <div class="card">
+                    <div class="card-header">
+                        Connect With Me
+                    </div>
                     <div class="card-body">
-                        <h5 class="card-title" id="contact-head">Connect With Me</h5>
-                        <p class="card-text" id="contact-body">Available across a variety of platforms, awaiting your call!</p>
-                        <!--Put Glyphicons here, rework-->
-                        <span class="social social-linked-in" href="#" id="linkedin"></span>
-                        <span class="social social-github" href="https://github.com/stlefebvre" id="github"></span>
-                        <span class="social social-gmail" href="#" id="gmail"></span>
+                        <h5 class="card-title">Available across a variety of platforms!</h5>
+                        <p class="card-text">Ready and awaiting your call.</p>
+                        <i class="fab fa-github-square fa-7x" id="githubGlyph"></i>
+                        <i class="fab fa-linkedin fa-7x" id="linkedinGlyph"></i>
+                        <i class="fas fa-envelope-square fa-7x" id="gmailGlyph"></i>
+                        <i class="fab fa-stack-overflow fa-7x" id="stckOvGlyph"></i>
+                    </div>
+                    <div class="card-footer text-muted">
+                        2 days ago
                     </div>
                 </div>
-                <!--Possibly include map?-->
             </div>
         </div>
     </div>
@@ -183,6 +210,8 @@
         crossorigin="anonymous"></script>
     <!--Animation JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <!--Google Animation JS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!--Custom JS-->
     <script src="./assets/javascript/portfolio.js"></script>
 </body>

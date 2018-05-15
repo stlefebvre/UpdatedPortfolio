@@ -19,11 +19,43 @@ body {
 #jumbotron {
     text-align: center;
     background-color: #fef7f1;
-    opacity: 0.3;
+    opacity: 0.7;
 }
 
 #jumbotron-head {
     color: #dd8069;
+}
+
+.ml9 {
+    position: relative;
+    font-weight: 200;
+    font-size: 4em;
+}
+
+.ml9 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+}
+
+.ml9 .letter {
+    transform-origin: 50% 100%;
+    display: inline-block;
+    line-height: 1em;
+}
+
+.jumbo-link {
+    position: relative;
+    color: #dd8069;
+    text-decoration: none;
+}
+
+.jumbo-link:hover {
+    color: #E3A485;
+    text-decoration: underline
 }
 
 #about-me {
@@ -77,8 +109,35 @@ body {
 
 #portfolio-head {
     color: #dd8069;
-    text-align: center;
+    text-align: left;
     border-bottom: double;
+}
+
+#GiphyCard,
+#TriviaCard,
+#GroupCard {
+    background-color: #E3A485;
+    color: #fef7f1;
+}
+
+#giphySiteLink,
+#giphyRepoLink,
+#triviaSiteLink,
+#triviaRepoLink,
+#grpPrjctSite,
+#grpPrjctRepo {
+    background-color: #907a63;
+    color: #fef7f1;
+    border-color: #d7c5af;
+}
+
+#giphySiteLink:hover,
+#giphyRepoLink:hover,
+#triviaSiteLink:hover,
+#triviaRepoLink:hover,
+#grpPrjctSite:hover,
+#grpPrjctRepo:hover {
+    text-decoration: underline;
 }
 
 #parallax3 {
