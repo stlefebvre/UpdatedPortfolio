@@ -179,26 +179,32 @@ body {
 
 .icon {
     color: #907a63;
+    opacity: 0.6
 }
 
 #githubGlyph:hover {
     color: #c9510c;
+    opacity: 1;
 }
 
 #linkedinGlyph:hover {
     color: #0077b5;
+    opacity: 1;
 }
 
 #gmailGlyph:hover {
     color: #c71610;
+    opacity: 1;
 }
 
 #stckOvGlyph:hover {
     color: #F48024;
+    opacity: 1;
 }
 
 #stckExGlyph:hover {
     color: #222426;
+    opacity: 1;
 }
 
 @media screen and (max-width: 640px) {
